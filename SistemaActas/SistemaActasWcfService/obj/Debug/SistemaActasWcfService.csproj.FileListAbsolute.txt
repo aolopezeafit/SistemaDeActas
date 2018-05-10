@@ -1,0 +1,13 @@
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\bin\SistemaActasWcfService.dll.config
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\bin\SistemaActasWcfService.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\bin\SistemaActasWcfService.pdb
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\bin\SistemaActasDominio.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\bin\SistemaActasDominioEntidades.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\bin\SistemaActasRepositorio.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\bin\SistemaActasDominioEntidades.pdb
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\bin\SistemaActasDominio.pdb
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\bin\SistemaActasRepositorio.pdb
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\obj\Debug\SistemaActasWcfService.csprojResolveAssemblyReference.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\obj\Debug\SistemaActasWcfService.csproj.CoreCompileInputs.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\obj\Debug\SistemaActasWcfService.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasWcfService\obj\Debug\SistemaActasWcfService.pdb

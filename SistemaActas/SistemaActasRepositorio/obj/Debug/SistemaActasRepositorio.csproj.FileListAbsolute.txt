@@ -1,0 +1,8 @@
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasRepositorio\bin\Debug\SistemaActasRepositorio.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasRepositorio\bin\Debug\SistemaActasRepositorio.pdb
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasRepositorio\bin\Debug\SistemaActasDominioEntidades.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasRepositorio\bin\Debug\SistemaActasDominioEntidades.pdb
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasRepositorio\obj\Debug\SistemaActasRepositorio.csprojResolveAssemblyReference.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasRepositorio\obj\Debug\SistemaActasRepositorio.csproj.CoreCompileInputs.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasRepositorio\obj\Debug\SistemaActasRepositorio.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasRepositorio\obj\Debug\SistemaActasRepositorio.pdb

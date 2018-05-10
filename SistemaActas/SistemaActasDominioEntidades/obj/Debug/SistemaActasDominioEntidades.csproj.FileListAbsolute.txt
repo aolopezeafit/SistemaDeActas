@@ -1,0 +1,6 @@
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasDominioEntidades\bin\Debug\SistemaActasDominioEntidades.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasDominioEntidades\bin\Debug\SistemaActasDominioEntidades.pdb
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasDominioEntidades\obj\Debug\SistemaActasDominioEntidades.csprojResolveAssemblyReference.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasDominioEntidades\obj\Debug\SistemaActasDominioEntidades.csproj.CoreCompileInputs.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasDominioEntidades\obj\Debug\SistemaActasDominioEntidades.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\SistemaActasDominioEntidades\obj\Debug\SistemaActasDominioEntidades.pdb

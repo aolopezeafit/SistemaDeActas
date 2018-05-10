@@ -1,0 +1,7 @@
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\Testing\bin\Debug\Testing.exe.config
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\Testing\bin\Debug\Testing.exe
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\Testing\bin\Debug\Testing.pdb
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\Testing\obj\Debug\Testing.csprojResolveAssemblyReference.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\Testing\obj\Debug\Testing.csproj.CoreCompileInputs.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\Testing\obj\Debug\Testing.exe
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\Testing\obj\Debug\Testing.pdb
