@@ -1,0 +1,5 @@
+SISTEMA DE GESTION DE ACTAS DE REUNION.
+
+-Los diagramas de la entrega 1 están corregidos en el documento /SistemaActas/Diseño/Diseño.docx
+
+-La aplicación está desarrollada en visual studio 2017 c# y asp mvc
