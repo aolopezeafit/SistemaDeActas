@@ -1,0 +1,107 @@
+﻿-- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: 127.0.0.1:3306
+-- Tiempo de generación: 06-05-2018 a las 22:26:25
+-- Versión del servidor: 5.7.21
+-- Versión de PHP: 5.6.35
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de datos: `bd_actas`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `acta`
+--
+
+DROP TABLE IF EXISTS `acta`;
+CREATE TABLE IF NOT EXISTS `acta` (
+  `id_acta` int(10) NOT NULL,
+  `nombre` varchar(200) NOT NULL,
+  `descripcion` varchar(500) NOT NULL,
+  `anotaciones` varchar(10000) NOT NULL,
+  `fecha` date NOT NULL,
+  `id_proyecto` int(10) NOT NULL,
+  PRIMARY KEY (`id_acta`),
+  KEY `id_proyecto` (`id_proyecto`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `compromiso`
+--
+
+DROP TABLE IF EXISTS `compromiso`;
+CREATE TABLE IF NOT EXISTS `compromiso` (
+  `id_compromiso` int(10) NOT NULL,
+  `id_acta` int(10) NOT NULL,
+  PRIMARY KEY (`id_compromiso`),
+  KEY `id_acta` (`id_acta`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `estado`
+--
+
+DROP TABLE IF EXISTS `estado`;
+CREATE TABLE IF NOT EXISTS `estado` (
+  `id_estado` int(10) NOT NULL,
+  `nombre` varchar(100) NOT NULL,
+  `descripcion` int(200) NOT NULL,
+  PRIMARY KEY (`id_estado`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `proyecto`
+--
+
+DROP TABLE IF EXISTS `proyecto`;
+CREATE TABLE IF NOT EXISTS `proyecto` (
+  `id_proyecto` int(10) NOT NULL,
+  `nombre` varchar(100) NOT NULL,
+  `descripcion` varchar(500) NOT NULL,
+  PRIMARY KEY (`id_proyecto`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `version_compromiso`
+--
+
+DROP TABLE IF EXISTS `version_compromiso`;
+CREATE TABLE IF NOT EXISTS `version_compromiso` (
+  `id_version_compromiso` int(10) NOT NULL,
+  `descripcion` varchar(1000) NOT NULL,
+  `fecha_compromiso` date NOT NULL,
+  `id_compromiso` int(10) NOT NULL,
+  `id_estado` int(10) NOT NULL,
+  `anotacion` varchar(10000) NOT NULL,
+  PRIMARY KEY (`id_version_compromiso`),
+  KEY `id_compromiso` (`id_compromiso`),
+  KEY `id_estado` (`id_estado`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
