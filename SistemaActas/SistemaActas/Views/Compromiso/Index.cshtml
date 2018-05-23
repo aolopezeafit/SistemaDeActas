@@ -1,0 +1,78 @@
+﻿@using SistemaActas.ActaServices;
+
+@model IEnumerable<SistemaActas.ActaServices.VersionCompromiso>
+
+@{
+    ViewBag.Title = "Index";
+    Acta acta = ViewBag.acta;
+}
+
+<h2 class="text-primary" my-2>Compromisos del Acta</h2>
+
+<div class="form-group">
+   <label>Nombre</label>
+    <div class="col-md-10">
+        <input type="text" class="form-control" readonly="readonly" value="@acta.nombre" />       
+    </div>
+</div>
+
+<div class="form-group">
+  <label>Anotaciones</label>
+  <div class="col-md-10">
+      <input type="text" class="form-control" readonly="readonly" value="@acta.anotaciones" />
+  </div>
+</div>
+
+<div class="form-group">
+    <label>Descripción</label>
+    <div class="col-md-10">
+        <input type="text" class="form-control" readonly="readonly" value="@acta.descripcion" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-md-offset-2 col-md-1">
+        @Html.ActionLink("Volver", "AllProyecto")
+    </div>
+
+    <div class="col-md-offset-2 col-md-5">
+        @Html.ActionLink("Crear Nuevo Compromiso", "Create", new { id = acta.id_acta })
+    </div>
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.anotacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_compromiso)
+        </th>
+
+
+        <th>Acciones</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.anotacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha_compromiso)
+
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.id_compromiso })
+            </td>
+        </tr>
+    }
+
+</table>

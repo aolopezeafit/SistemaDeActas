@@ -1,0 +1,18 @@
+C:\Users\Personal\Desktop\Componentes\PROYECTO\WebServices\WS_Actas\WS_Actas\bin\WS_Actas.dll.config
+C:\Users\Personal\Desktop\Componentes\PROYECTO\WebServices\WS_Actas\WS_Actas\bin\WS_Actas.dll
+C:\Users\Personal\Desktop\Componentes\PROYECTO\WebServices\WS_Actas\WS_Actas\bin\WS_Actas.pdb
+C:\Users\Personal\Desktop\Componentes\PROYECTO\WebServices\WS_Actas\WS_Actas\obj\Debug\WS_Actas.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\Componentes\PROYECTO\WebServices\WS_Actas\WS_Actas\obj\Debug\WS_Actas.dll
+C:\Users\Personal\Desktop\Componentes\PROYECTO\WebServices\WS_Actas\WS_Actas\obj\Debug\WS_Actas.pdb
+C:\Users\Personal\Desktop\Componentes\PROYECTO\WebServices\WS_Actas\WS_Actas\bin\System.Data.dll
+C:\Users\Personal\Desktop\Componentes\PROYECTO\WebServices\WS_Actas\WS_Actas\obj\Debug\WS_Actas.csprojResolveAssemblyReference.cache
+C:\Users\Personal\Desktop\Componentes\PROYECTO\WebServices\WS_Actas\WS_Actas\bin\MySql.Data.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\bin\WS_Actas.dll.config
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\bin\WS_Actas.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\bin\WS_Actas.pdb
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\bin\MySql.Data.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\bin\System.Data.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\obj\Debug\WS_Actas.csprojResolveAssemblyReference.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\obj\Debug\WS_Actas.csproj.CoreCompileInputs.cache
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\obj\Debug\WS_Actas.dll
+L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\obj\Debug\WS_Actas.pdb

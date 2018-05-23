@@ -1,0 +1,71 @@
+﻿@using SistemaActas.ProyectoServices;
+
+@model IEnumerable<Acta>
+
+@{
+    ViewBag.Title = "Detalles";
+    Proyecto proyecto = ViewBag.proyecto;
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <h1 class="text-primary my-2">Proyectos</h1>
+        <hr />
+        <div class="form-group">
+            <label>Nombre</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" readonly="readonly" value="@proyecto.nombre">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Descripción</label>
+            <div class="col-md-10">
+                <input type="text"  class="form-control" readonly="readonly" value="@proyecto.descripcion"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-md-offset-2 col-md-1">
+                @Html.ActionLink("Volver", "AllProyecto")
+            </div>
+            <div class="col-md-offset-2 col-md-2">
+                @Html.ActionLink("Crear Acta", "../Actas/create", new { idProyecto = proyecto.id_proyecto })
+            </div>
+        </div>
+
+        <div>
+            <table class="table table-striped table-sm">
+                <thead>
+                    <tr>
+                        <th>
+                            Nombre
+                        </th>
+                        <th>
+                            Descripción
+                        </th>
+
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.descripcion)
+                        </td>
+
+                        <td>
+                            @Html.ActionLink("Detalles", "../Compromiso/index", new { id = item.id_acta }) |
+                            @Html.ActionLink("Editar", "../Actas/Edit", new { id = item.id_acta })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+}

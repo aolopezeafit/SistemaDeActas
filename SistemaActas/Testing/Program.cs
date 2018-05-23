@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Testing.ServiceActas;
 using Testing.ServicioSistemaActas;
 
 namespace Testing
@@ -10,6 +11,25 @@ namespace Testing
     class Program
     {
         static void Main(string[] args)
+        {
+            try
+            {
+                Test1();
+            }
+            catch (Exception ex)
+            {
+               Console.Out.WriteLine(ex.Message);
+            }
+        }
+
+        static void Test1()
+        {
+            ServiceActasClient ws = new ServiceActasClient();
+            var str = ws.ObtenerActas();
+            ws.Close();
+        }
+
+        static void Test2()
         {
             Proyecto proyecto = new Proyecto();
             proyecto.Id = 1;

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:62288/ServiceCompromisos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WS_Actas.Model" />
+  <xs:element name="CrearCompromiso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_acta" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CrearCompromisoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerCompromisos">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerCompromisosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WS_Actas.Model" minOccurs="0" name="ObtenerCompromisosResult" nillable="true" type="q1:ArrayOfCompromiso" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerCompromiso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idCompromiso" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerCompromisoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WS_Actas.Model" minOccurs="0" name="ObtenerCompromisoResult" nillable="true" type="q2:Compromiso" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ActualizarCompromiso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_compromiso" type="xs:int" />
+        <xs:element minOccurs="0" name="id_acta" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ActualizarCompromisoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerUsuarioCompromiso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idCompromiso" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerUsuarioCompromisoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WS_Actas.Model" minOccurs="0" name="ObtenerUsuarioCompromisoResult" nillable="true" type="q3:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

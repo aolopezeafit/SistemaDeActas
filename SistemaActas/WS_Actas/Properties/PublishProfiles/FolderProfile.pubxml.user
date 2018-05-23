@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>L:\Estudios\Posgrado\Componentes\Trabajos\Sistema de actas\Solucion\SistemaActasSln\WS_Actas\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>10/02/2015 17:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Data.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/WS_Actas.dll">
+      <publishTime>05/23/2018 11:36:47</publishTime>
+    </File>
+    <File Include="bin/WS_Actas.pdb">
+      <publishTime>05/23/2018 11:36:47</publishTime>
+    </File>
+    <File Include="ServiceActas.svc">
+      <publishTime>05/09/2018 20:16:14</publishTime>
+    </File>
+    <File Include="ServiceCompromisos.svc">
+      <publishTime>05/12/2018 12:14:01</publishTime>
+    </File>
+    <File Include="ServiceProyectos.svc">
+      <publishTime>05/08/2018 22:23:08</publishTime>
+    </File>
+    <File Include="ServiceUsuarios.svc">
+      <publishTime>05/12/2018 09:58:22</publishTime>
+    </File>
+    <File Include="ServiceVersionesCompromiso.svc">
+      <publishTime>05/13/2018 10:54:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/23/2018 11:36:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WS_Actas.ServiceVersionesCompromiso" CodeBehind="ServiceVersionesCompromiso.svc.cs" %>

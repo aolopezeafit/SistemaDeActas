@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaActasDominio", "SistemaActasDominio\SistemaActasDominio.csproj", "{C2C483FB-E8DA-4100-B316-52BE394480AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaActas", "SistemaActas\SistemaActas.csproj", "{70EF16DE-42E3-491F-9656-1C369996883D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{247541DF-063C-4C84-B893-09685FBF5ACB} = {247541DF-063C-4C84-B893-09685FBF5ACB}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaActasDominioEntidades", "SistemaActasDominioEntidades\SistemaActasDominioEntidades.csproj", "{73E7ABEB-CC0C-42E5-A0F5-BC31B97A767E}"
 EndProject
@@ -17,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaActasWcfService", "SistemaActasWcfService\SistemaActasWcfService.csproj", "{FA6BD0CC-9D7D-4148-85E9-1DB9AE61EF5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS_Actas", "WS_Actas\WS_Actas.csproj", "{247541DF-063C-4C84-B893-09685FBF5ACB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +53,10 @@ Global
 		{FA6BD0CC-9D7D-4148-85E9-1DB9AE61EF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA6BD0CC-9D7D-4148-85E9-1DB9AE61EF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA6BD0CC-9D7D-4148-85E9-1DB9AE61EF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247541DF-063C-4C84-B893-09685FBF5ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247541DF-063C-4C84-B893-09685FBF5ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247541DF-063C-4C84-B893-09685FBF5ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247541DF-063C-4C84-B893-09685FBF5ACB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

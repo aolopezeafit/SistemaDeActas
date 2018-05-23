@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiceVersionesCompromiso" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:62288/ServiceVersionesCompromiso.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:62288/ServiceVersionesCompromiso.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:62288/ServiceVersionesCompromiso.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WS_Actas.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceVersionesCompromiso_CrearVersionCompromiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:CrearVersionCompromiso" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_CrearVersionCompromiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CrearVersionCompromisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerVersionesCompromisos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerVersionesCompromisos" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerVersionesCompromisos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerVersionesCompromisosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerVersionCompromiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerVersionCompromiso" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerVersionCompromiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerVersionCompromisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ActualizarVersionCompromiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarVersionCompromiso" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ActualizarVersionCompromiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarVersionCompromisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerEstados_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstados" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerEstados_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerVersionesDeCompromiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerVersionesDeCompromiso" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerVersionesDeCompromiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerVersionesDeCompromisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerUltimaVersionDeCompromiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUltimaVersionDeCompromiso" />
+  </wsdl:message>
+  <wsdl:message name="IServiceVersionesCompromiso_ObtenerUltimaVersionDeCompromiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUltimaVersionDeCompromisoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceVersionesCompromiso">
+    <wsdl:operation name="CrearVersionCompromiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/CrearVersionCompromiso" message="tns:IServiceVersionesCompromiso_CrearVersionCompromiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/CrearVersionCompromisoResponse" message="tns:IServiceVersionesCompromiso_CrearVersionCompromiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVersionesCompromisos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerVersionesCompromisos" message="tns:IServiceVersionesCompromiso_ObtenerVersionesCompromisos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerVersionesCompromisosResponse" message="tns:IServiceVersionesCompromiso_ObtenerVersionesCompromisos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVersionCompromiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerVersionCompromiso" message="tns:IServiceVersionesCompromiso_ObtenerVersionCompromiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerVersionCompromisoResponse" message="tns:IServiceVersionesCompromiso_ObtenerVersionCompromiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarVersionCompromiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ActualizarVersionCompromiso" message="tns:IServiceVersionesCompromiso_ActualizarVersionCompromiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ActualizarVersionCompromisoResponse" message="tns:IServiceVersionesCompromiso_ActualizarVersionCompromiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstados">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerEstados" message="tns:IServiceVersionesCompromiso_ObtenerEstados_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerEstadosResponse" message="tns:IServiceVersionesCompromiso_ObtenerEstados_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVersionesDeCompromiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerVersionesDeCompromiso" message="tns:IServiceVersionesCompromiso_ObtenerVersionesDeCompromiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerVersionesDeCompromisoResponse" message="tns:IServiceVersionesCompromiso_ObtenerVersionesDeCompromiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUltimaVersionDeCompromiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerUltimaVersionDeCompromiso" message="tns:IServiceVersionesCompromiso_ObtenerUltimaVersionDeCompromiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceVersionesCompromiso/ObtenerUltimaVersionDeCompromisoResponse" message="tns:IServiceVersionesCompromiso_ObtenerUltimaVersionDeCompromiso_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceVersionesCompromiso" type="tns:IServiceVersionesCompromiso">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CrearVersionCompromiso">
+      <soap:operation soapAction="http://tempuri.org/IServiceVersionesCompromiso/CrearVersionCompromiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVersionesCompromisos">
+      <soap:operation soapAction="http://tempuri.org/IServiceVersionesCompromiso/ObtenerVersionesCompromisos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVersionCompromiso">
+      <soap:operation soapAction="http://tempuri.org/IServiceVersionesCompromiso/ObtenerVersionCompromiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarVersionCompromiso">
+      <soap:operation soapAction="http://tempuri.org/IServiceVersionesCompromiso/ActualizarVersionCompromiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstados">
+      <soap:operation soapAction="http://tempuri.org/IServiceVersionesCompromiso/ObtenerEstados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVersionesDeCompromiso">
+      <soap:operation soapAction="http://tempuri.org/IServiceVersionesCompromiso/ObtenerVersionesDeCompromiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUltimaVersionDeCompromiso">
+      <soap:operation soapAction="http://tempuri.org/IServiceVersionesCompromiso/ObtenerUltimaVersionDeCompromiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceVersionesCompromiso">
+    <wsdl:port name="BasicHttpBinding_IServiceVersionesCompromiso" binding="tns:BasicHttpBinding_IServiceVersionesCompromiso">
+      <soap:address location="http://localhost:62288/ServiceVersionesCompromiso.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
